@@ -1,9 +1,9 @@
 ARAHAN PENGIRAAN (UNTUK AI KIRAAN BOQ) - UPDATED (2026-02-12)
 
 INPUT (WAJIB):
-- 1.2 Materials.txt (Senarai Bahan)  [RUJUKAN HARGA WAJIB]
-- 1.3 Labour.txt (Senarai Labour, Rental, Service)  [RUJUKAN HARGA WAJIB]
-- Senarai scope kerja + kuantiti dari BOQ (sqm / m / m3 / unit) + penerangan scope.
+- Materials.txt (Senarai Bahan)  [RUJUKAN HARGA WAJIB]
+- Labour.txt (Senarai Labour, Rental, Service)  [RUJUKAN HARGA WAJIB]
+- Senarai scope kerja + kuantiti dari BOQ (sqm / sqft / m / m3 / unit) + penerangan scope.
 
 DATA WAJIB SEBELUM MULA (JIKA TAK CUKUP, STOP & TANYA):
 - Kuantiti setiap scope (area/panjang/volume/unit).
@@ -25,9 +25,9 @@ CONVERSION (UNTUK RATE AREA):
 - Jika BOQ bagi sqm tapi harga rujukan dalam sqft (atau sebaliknya), buat conversion dan tunjuk kedua-dua rate.
 
 KEUTAMAAN DATA (JIKA BERCANGGAH):
-1) BOQ / Scope terbaru
-2) Materials.txt
-3) Labour.txt
+1) BOQ / Scope terbaru (user input)
+2) Materials.txt (rujukan harga bahan rasmi)
+3) Labour.txt (rujukan harga labour/rental/service rasmi)
 
 PEMILIHAN HARGA/ITEM (WAJIB IKUT):
 - Utamakan tarikh terbaru.
@@ -87,7 +87,7 @@ F) Senarai Andaian
 
 NOTA TAMBAHAN:
 - Jangan kira kuantiti secara rawak.
-- Semua hasil mesti boleh dijejak balik kepada BOQ + yield + rujukan harga.
-- Jika item tak wujud dalam Materials.txt atau Labour.txt: STOP dan tanya user nak rujuk mana / atau cadangkan tambah item baru dalam list.
-
+- Semua hasil mesti boleh dijejak balik kepada BOQ + yield/coverage + rujukan harga rasmi.
+- Jika item tidak wujud dalam Materials.txt atau Labour.txt: STOP dan tanya user nak rujuk mana, atau cadangkan tambah item baru ke fail rujukan rasmi.
+- Jika rate/yield dalam Materials.txt atau Labour.txt masih kosong / "?" : STOP dan minta user isi rate/yield dahulu sebelum kira RM.
 
