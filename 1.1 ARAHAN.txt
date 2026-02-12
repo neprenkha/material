@@ -90,4 +90,10 @@ NOTA TAMBAHAN:
 - Semua hasil mesti boleh dijejak balik kepada BOQ + yield/coverage + rujukan harga rasmi.
 - Jika item tidak wujud dalam Materials.txt atau Labour.txt: STOP dan tanya user nak rujuk mana, atau cadangkan tambah item baru ke fail rujukan rasmi.
 - Jika rate/yield dalam Materials.txt atau Labour.txt masih kosong / "?" : STOP dan minta user isi rate/yield dahulu sebelum kira RM.
+- Jika item tidak wujud atau rate bahan (Materials.txt) tiada: STOP dan minta user lengkapkan dahulu.
+- Jika labour rate (Labour.txt) tidak lengkap: TERUSKAN pengiraan kuantiti dan bahan.
+  Labour yang tiada rate mesti ditanda "MISSING RATE" / "PENDING" dan tidak dimasukkan dalam grand total.
+  Grand total mesti tunjuk 2 angka: (A) Materials-only confirmed, (B) Full total pending labour completion.
+
+
 
