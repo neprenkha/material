@@ -2,7 +2,7 @@ ARAHAN PENGIRAAN (UNTUK AI KIRAAN BOQ) - UPDATED (2026-02-12)
 
 INPUT (WAJIB):
 - 1.2 Materials.txt (Senarai Bahan)  [RUJUKAN HARGA WAJIB]
-- 2.3 Labour.txt (Senarai Labour, Rental, Service)  [RUJUKAN HARGA WAJIB]
+- 1.3 Labour.txt (Senarai Labour, Rental, Service)  [RUJUKAN HARGA WAJIB]
 - Senarai scope kerja + kuantiti dari BOQ (sqm / m / m3 / unit) + penerangan scope.
 
 DATA WAJIB SEBELUM MULA (JIKA TAK CUKUP, STOP & TANYA):
@@ -89,4 +89,5 @@ NOTA TAMBAHAN:
 - Jangan kira kuantiti secara rawak.
 - Semua hasil mesti boleh dijejak balik kepada BOQ + yield + rujukan harga.
 - Jika item tak wujud dalam Materials.txt atau Labour.txt: STOP dan tanya user nak rujuk mana / atau cadangkan tambah item baru dalam list.
+
 
