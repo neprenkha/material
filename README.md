@@ -1,5 +1,5 @@
 ## BOQ Calculation Rules (Must Follow)
-- Full rules: docs/ARAHAN_PENGIRAAN.md
+- Full rules: docs/1.1ARAHAN.md
 - Price references (mandatory):
   - data/1.2 Materials
   - data/1.3 Labour
